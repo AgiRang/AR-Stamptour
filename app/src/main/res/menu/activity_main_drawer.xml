@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:checked="true"
+            android:icon="@drawable/ic_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_AR"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="AR Mode" />
+        <item
+            android:id="@+id/nav_Community"
+            android:icon="@drawable/ic_community"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/ic_confi"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Preforences">
+        <menu>
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/ic_logout"
+                android:title="LogOut" />
+        </menu>
+    </item>
+</menu>
